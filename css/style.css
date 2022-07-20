@@ -215,7 +215,9 @@ a[type=main] {
 }
 
 .intro_title_contacts_tel {
+	display: inline-block;
 	margin: 0 25px 0 12px;
+	padding-top: 7px;
 	color: #76869F;
 	opacity: 0.8;
 }
@@ -225,7 +227,9 @@ a[type=main] {
 }
 
 .intro_title_contacts_mail {
+	display: inline-block;
 	margin-left: 12px;
+	padding-top: 7px;
 	color: #76869F;
 	opacity: 0.8;
 }
@@ -487,6 +491,7 @@ a[type=main] {
 	width: 248px;
 	height: 38px;
 	border-radius: 5px;
+	color: #fff;
 }
 
 .cheaper_card button:nth-child(1) {
@@ -499,6 +504,11 @@ a[type=main] {
 
 .cheaper_card button:last-child {
 	background-color: #95936A;
+}
+
+.cheaper_card_btn:hover{
+	color: #a6a6fb;
+	border-radius: 30px;
 }
 /* Cheaper than ordering end */
 
