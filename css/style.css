@@ -193,6 +193,7 @@ a[type="main"] {
 
 .intro_title_btn:hover {
   background-color: #355635;
+	border-radius: 30px;
 }
 
 .intro_title_image-ell {
@@ -366,20 +367,19 @@ a[type="main"] {
 }
 
 .convenience_text {
-  width: 565px;
+	width: 600px;
   height: 77px;
   font-weight: normal;
   font-size: 20px;
   line-height: 142.8%;
   color: #6a7c95;
-  margin-bottom: 60px;
+  margin: 0 0 60px;
 }
 
 .convenience_img {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 30px;
 }
 
 .convenience_title_btn {
@@ -398,21 +398,12 @@ a[type="main"] {
 .convenience_title_btn:hover {
   background-color: #4c535c;
 }
-
-.convenience_img_conv1 {
-  height: 290px;
-  margin-right: 70px;
-}
-
-.convenience_img_conv2 {
-  height: 417px;
-}
-
 /* Convenience end */
 
 /* Cheaper than ordering start */
 .cheaper {
-  z-index: 10;
+	position: relative;
+  z-index: 1;
   width: 100%;
   height: 892px;
   background-color: #151922;
